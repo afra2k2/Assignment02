@@ -1,0 +1,114 @@
+body{
+    max-width: 1600px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+@media screen and (max-width:576px){
+    body{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+.quicksand-regular{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* navigation bar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part{
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+.home{
+    color: orange;  
+}
+.about{
+    color: skyblue;
+}
+.faci{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+.fa-bars{
+    display: none;
+}
+.btn1{
+    background-color: orange;
+    height: 50px;
+    width: 197px;
+    border: none;
+    font-weight: bold;
+    font-size: 18;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+@media screen and (max-width:576px) {
+    nav h2,a,.btn1{
+        display: none;
+    }
+   nav{
+    justify-content: space-between;
+   }
+    .fa-bars{
+        display: contents;
+        height: 46px;
+        width: 38px;
+    }
+}
+/* banner design */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-section h1{
+    font-weight: bold;
+    font-size: 56px;
+}
+.banner img{
+    width: 467px;
+    height: 575px;
+}
+.emp{
+    color: orange;
+}
+.to-vi{
+    color: skyblue;
+}
+.text-section p{
+    font-size: 24px;
+}
+.btn2{
+    background-color: black;
+    height: 50px;
+    width: 197px;
+    border: none;
+    font-weight: bold;
+    font-size: 18;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+@media screen and (max-width:576px){
+    .banner{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .text-section{
+        text-align: center;
+    }
+}
